@@ -8,11 +8,6 @@ LEFT  osd-msg seek -5 exact
 UP   add volume  5
 DOWN add volume -5
 
-d osd-msg seek  5 exact
-a osd-msg seek -5 exact
-w add volume  5
-s add volume -5
-
 j osd-msg seek -10 exact
 k cycle pause
 l osd-msg seek  10 exact
@@ -28,4 +23,13 @@ l osd-msg seek  10 exact
 8 seek 80 absolute-percent
 9 seek 90 absolute-percent
 
+```
+
+Additional convenience:
+
+```
+d osd-msg seek  5 exact
+a osd-msg seek -5 exact
+w add volume  5
+s add volume -5
 ```
